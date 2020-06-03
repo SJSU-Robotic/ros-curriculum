@@ -37,3 +37,7 @@ Case studies and advanced topics
 ---
 ## Assignment
 * [Exercise 5](assignments/exercise5.pdf)
+
+---
+## Capstone Project
+This section will be updated by week 5 - stay tuned!

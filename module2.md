@@ -59,3 +59,4 @@ Writing subscribers and publishers, visualizing data
 ---
 ## Assignment
 * [Exercise 2](assignments/exercise2.pdf)
+    * The `husky_highlevel_controller.zip` compressed package template is already in this repo at [`assignments/assets/husky_highlevel_controller.zip`](assignments/assets/husky_highlevel_controller.zip), but you are recommended to create the package from scratch

@@ -56,3 +56,4 @@ Handling remote procedure calls, telemetry, and bugs
 ---
 ## Assignment
 * [Exercise 4](assignments/exercise4.pdf)
+    * The `husky_navigation.bag` file is available at [this Google Drive link](https://drive.google.com/file/d/1nEjQloB1lQNSKgFCU6TovC-YJktFa9ez/view?usp=sharing)

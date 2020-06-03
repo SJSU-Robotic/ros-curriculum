@@ -41,3 +41,4 @@ Visualizing robot models and kinematics
 ---
 ## Assignment
 * [Exercise 3](assignments/exercise3.pdf)
+    * The `singlePillar.world` is in this repo at [`assignments/assets/singlePillar.world`](assignments/assets/singlePillar.world)

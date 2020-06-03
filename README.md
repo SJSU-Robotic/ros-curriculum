@@ -8,11 +8,11 @@ Adapted from the [February 2020 iteration of ETH Zurich's Programming for Roboti
 
 ---
 ## Syllabus
-* [Weeks 1 and 2 | ROS framework basics](module1.md)
-* [Weeks 3 and 4 | Writing subscribers and publishers, visualizing data](module2.md)
-* [Weeks 5 and 6 | Visualizing robot models and kinematics](module3.md)
-* [Weeks 7 and 8 | Handling remote procedure calls, telemetry, and bugs](module4.md)
-* [Weeks 9 and 10 | Case studies](module5.md)
+* [Weeks 1 and 2, Module 1 - ROS framework basics](module1.md)
+* [Weeks 3 and 4, Module 2 - Writing subscribers and publishers, visualizing data](module2.md)
+* [Weeks 5 and 6, Module 3 - Visualizing robot models and kinematics](module3.md)
+* [Weeks 7 and 8, Module 4 - Handling remote procedure calls, telemetry, and bugs](module4.md)
+* [Weeks 9 and 10, Module 5 - Case studies and advanced topics](module5.md)
 
 ---
 ## Resources

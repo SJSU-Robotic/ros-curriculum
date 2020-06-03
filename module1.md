@@ -1,8 +1,10 @@
 # ROS Track | Module 1
+ROS framework basics
+
 [Back to the README](README.md)
 
 ---
-## Discussed Topics
+## Topics to be discussed
 * ROS architecture & philosophy
 * ROS master, nodes, and topics
 * Console commands
@@ -14,7 +16,9 @@
 ---
 ## Readings
 * [Lecture 1 Slides](readings/lecture1.pdf)
-* ROS official documentation
+* [ROS official documentation](http://wiki.ros.org/)
+    * [Navigating the ROS wiki](http://wiki.ros.org/ROS/Tutorials/NavigatingTheWiki)
+    * [Technical overview](http://wiki.ros.org/ROS/Technical%20Overview)
     * [ROS master](http://wiki.ros.org/Master)
     * [ROS nodes](http://wiki.ros.org/Nodes)
     * [ROS topics](http://wiki.ros.org/Topics)
@@ -28,6 +32,9 @@
         * Names
             * Graph resources
             * Package resources
+    * [XML syntax](https://www.w3schools.com/xml/xml_syntax.asp), which are used in `.launch`, `.urdf`, and `.sdf` files
+    * [YAML syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), which are used in `.msg`, and `.srv` files
+        * **Note**: YAML syntax is also used in the [ROS command line](http://wiki.ros.org/ROS/YAMLCommandLine)
     * [`roslaunch` tips for large project](http://wiki.ros.org/roslaunch/Tutorials/Roslaunch%20tips%20for%20larger%20projects)
 * [Cheatsheet for `catkin-tools`](https://catkin-tools.readthedocs.io/en/latest/cheat_sheet.html)
 * [(Optional) Gazebo Tutorials](http://www.gazebosim.org/tutorials)

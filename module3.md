@@ -1,8 +1,10 @@
 # ROS Track | Module 3
+Visualizing robot models and kinematics
+
 [Back to the README](README.md)
 
 ---
-## Discussed Topics
+## Topics to be discussed
 * TF Transformation System
 * Common ROS `rqt` tools
 * Robot models (URDF)
@@ -11,7 +13,7 @@
 ---
 ## Readings
 * [Lecture 3 Slides](readings/lecture3.pdf)
-* ROS official documentation
+* [ROS official documentation](http://wiki.ros.org/)
     * [`tf2` package summary](http://wiki.ros.org/tf2)
         * [Migrating from `tf` to `tf2`](http://wiki.ros.org/tf2/Migration)
         * [(Optional) `tf` package](http://wiki.ros.org/tf)
@@ -19,6 +21,7 @@
         * [`rqt_console` package summary](http://wiki.ros.org/rqt_console)
         * [`rqt_graph` package summary](http://wiki.ros.org/rqt_graph)
         * [`rqt_plot` package summary](http://wiki.ros.org/rqt_plot)
+        * [`rqt_multiplot` package summary](http://wiki.ros.org/rqt_multiplot)
         * [`rqt_publisher` package summary](http://wiki.ros.org/rqt_publisher)
         * [`rqt_reconfigure` package summary](http://wiki.ros.org/rqt_reconfigure)
     * [`urdf` package summary](http://wiki.ros.org/urdf)

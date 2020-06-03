@@ -1,8 +1,10 @@
 # ROS Track | Module 2
+Writing subscribers and publishers, visualizing data
+
 [Back to the README](README.md)
 
 ---
-## Discussed Topics
+## Topics to be discussed
 * ROS package structure
 * ROS programming
 * ROS client libraries
@@ -15,7 +17,7 @@
 ---
 ## Readings
 * [Lecture 2 Slides](readings/lecture2.pdf)
-* ROS official documentation
+* [ROS official documentation](http://wiki.ros.org/)
     * [ROS packages](http://wiki.ros.org/Packages)
     * [ROS package manifest](http://wiki.ros.org/Manifest)
     * [ROS makelists](http://wiki.ros.org/catkin/CMakeLists.txt)
@@ -33,8 +35,10 @@
     * [ROS Best Practices](https://github.com/ethz-asl/ros_best_practices/wiki)
     * [ROS Package Template](https://github.com/ethz-asl/ros_best_practices/tree/master/ros_package_template)
 * Textbook 
-    * [Chapter 1 | Introduction](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-intro.pdf)
-    * [Chapter 2 | Getting started](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-start.pdf)
+    * [Chapter 3 | Writing ROS programs](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-intro.pdf)
+    * [Chapter 4 | Log messages](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-start.pdf)
+    * [Chapter 5 | Graph resource names](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-start.pdf)
+    * [Chapter 6 | Launch files](https://www.cse.sc.edu/~jokane/agitr/agitr-letter-start.pdf)
 
 ---
 ## Lecture Videos

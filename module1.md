@@ -62,3 +62,4 @@ ROS framework basics
 ---
 ## Assignment
 * [Exercise 1](assignments/exercise1.pdf)
+    * [Link to `husky_gazebo/Tutorials/Simulating%20Husky`](http://wiki.ros.org/husky_gazebo/Tutorials/Simulating%20Husky)

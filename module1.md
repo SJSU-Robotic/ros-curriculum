@@ -32,6 +32,7 @@ ROS framework basics
         * Names
             * Graph resources
             * Package resources
+    * [A rundown of the `catkin` workspace file structure](http://wiki.ros.org/catkin/workspaces)
     * [XML syntax](https://www.w3schools.com/xml/xml_syntax.asp), which are used in `.launch`, `.urdf`, and `.sdf` files
     * [YAML syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), which are used in `.msg`, and `.srv` files
         * **Note**: YAML syntax is also used in the [ROS command line](http://wiki.ros.org/ROS/YAMLCommandLine)

@@ -22,7 +22,7 @@ Adapted from the [February 2020 iteration of ETH Zurich's Programming for Roboti
     * Login and password: `ubuntu`
 
 ### VM Client
-* SJSU CMPE/SE-affiliated macOS users: [VMWare Fusion](https://e5.onthehub.com/WebStore/OfferingDetails.aspx?o=637dd37b-06b5-e711-80f7-000d3af41938&ws=07c5a62b-c840-de11-b696-0030485a8df0&vsro=8)
+* SJSU CMPE/SE-affiliated macOS users: [VMWare Fusion Pro for macOS](https://e5.onthehub.com/WebStore/OfferingDetails.aspx?o=637dd37b-06b5-e711-80f7-000d3af41938&ws=07c5a62b-c840-de11-b696-0030485a8df0&vsro=8)
 * SJSU CMPE/SE-affilated Windows users: [VMWare Workstation Pro for Windows](https://e5.onthehub.com/WebStore/OfferingsOfMajorVersionList.aspx?pmv=9a4edb40-2dce-e811-810b-000d3af41938&cmi_mnuMain=16a020b5-ed3c-df11-b4ab-0030487d8897&cmi_mnuMain_child=aafc5891-884f-e511-940f-b8ca3a5db7a1&cmi_mnuMain_child_child=6130e417-ad1a-e511-940d-b8ca3a5db7a1&ws=07c5a62b-c840-de11-b696-0030485a8df0&vsro=8)
 * Other Windows users: [VMWare Workstation for Windows](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
 * Other macOS users (via 30-day trial period): [VMWare Fusion for macOS](https://www.vmware.com/products/fusion/fusion-evaluation.html)

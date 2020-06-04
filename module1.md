@@ -49,6 +49,7 @@ ROS framework basics
 ---
 ## [Tutorials](http://wiki.ros.org/ROS/Tutorials)
 1. [Installing and configuring your ROS environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+    * [Compare with the `catkin-tools` quickstart quide](https://catkin-tools.readthedocs.io/en/latest/quick_start.html)
     * [Using `catkin init` instead of `catkin_make`](https://catkin-tools.readthedocs.io/en/latest/verbs/catkin_init.html)
     * [Using `catkin` vs `catkin_make`](https://catkin-tools.readthedocs.io/en/latest/migration.html#important-distinctions-between-catkin-make-and-catkin-build)
 2. [Navigating the ROS filesystem](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)

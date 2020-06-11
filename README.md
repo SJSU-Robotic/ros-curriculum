@@ -32,3 +32,6 @@ Adapted from the [February 2020 iteration of ETH Zurich's Programming for Roboti
 ### Textbook
 * O'Kane, J. M. (2013). A gentle introduction to ROS. Retrieved from https://www.cse.sc.edu/~jokane/agitr/
     * Note: As this book is seven years old, it is several ROS version behind. However, it is freely accessible and well-organized, so it is nevertheless recommended.
+
+### Publishing your work back to Github
+* Check out [this guide](readings/publishing_to_github.pdf)

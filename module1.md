@@ -32,6 +32,7 @@ ROS framework basics
         * Names
             * Graph resources
             * Package resources
+    * [A rundown of the `catkin` workspace file structure](http://wiki.ros.org/catkin/workspaces)
     * [XML syntax](https://www.w3schools.com/xml/xml_syntax.asp), which are used in `.launch`, `.urdf`, and `.sdf` files
     * [YAML syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), which are used in `.msg`, and `.srv` files
         * **Note**: YAML syntax is also used in the [ROS command line](http://wiki.ros.org/ROS/YAMLCommandLine)
@@ -49,6 +50,7 @@ ROS framework basics
 ---
 ## [Tutorials](http://wiki.ros.org/ROS/Tutorials)
 1. [Installing and configuring your ROS environment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+    * [Compare with the `catkin-tools` quickstart quide](https://catkin-tools.readthedocs.io/en/latest/quick_start.html)
     * [Using `catkin init` instead of `catkin_make`](https://catkin-tools.readthedocs.io/en/latest/verbs/catkin_init.html)
     * [Using `catkin` vs `catkin_make`](https://catkin-tools.readthedocs.io/en/latest/migration.html#important-distinctions-between-catkin-make-and-catkin-build)
 2. [Navigating the ROS filesystem](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
@@ -61,3 +63,4 @@ ROS framework basics
 ---
 ## Assignment
 * [Exercise 1](assignments/exercise1.pdf)
+    * [Link to `husky_gazebo/Tutorials/Simulating%20Husky`](http://wiki.ros.org/husky_gazebo/Tutorials/Simulating%20Husky)

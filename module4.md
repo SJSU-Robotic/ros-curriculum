@@ -1,7 +1,7 @@
 # ROS Track | Module 4
 Handling remote procedure calls, telemetry, and bugs
 
-[Back to the README](README.md)
+Navigate to [README](README.md) | [Module 3](module3.md) ⬅️ Module 4 ➡️ [Module 5](module5.md)
 
 ---
 ## Topics to be discussed

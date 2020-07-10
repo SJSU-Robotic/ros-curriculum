@@ -1,7 +1,7 @@
 # ROS Track | Module 3
 Visualizing robot models and kinematics
 
-[Back to the README](README.md)
+Navigate to [README](README.md) | [Module 2](module2.md) ⬅️ Module 3 ➡️ [Module 4](module4.md)
 
 ---
 ## Topics to be discussed

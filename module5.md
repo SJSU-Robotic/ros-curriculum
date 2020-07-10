@@ -1,7 +1,7 @@
 # ROS Track | Module 5
 Case studies and advanced topics
 
-[Back to the README](README.md)
+Navigate to [README](README.md) | [Module 4](module4.md) ⬅️ Module 5 ➡️ [Capstone Project](capstone.md)
 
 ---
 ## Cases to be discussed
@@ -37,7 +37,3 @@ Case studies and advanced topics
 ---
 ## Assignment
 * [Exercise 5](assignments/exercise5.pdf)
-
----
-## Capstone Project
-This section will be updated by week 5 - stay tuned!

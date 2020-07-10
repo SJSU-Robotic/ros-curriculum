@@ -1,7 +1,7 @@
 # ROS Track | Module 2
 Writing subscribers and publishers, visualizing data
 
-[Back to the README](README.md)
+Navigate to [README](README.md) | [Module 1](module1.md) ⬅️ Module 2 ➡️ [Module 3](module3.md)
 
 ---
 ## Topics to be discussed

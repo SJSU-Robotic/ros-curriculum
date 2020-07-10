@@ -1,7 +1,7 @@
 # ROS Track | Module 1
 ROS framework basics
 
-[Back to the README](README.md)
+Navigate to [README](README.md) | Module 1 ➡️ [Module 2](module2.md)
 
 ---
 ## Topics to be discussed

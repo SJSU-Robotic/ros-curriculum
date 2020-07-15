@@ -6,7 +6,6 @@
   </include>
 
   <!-- <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" /> -->
-
   <node pkg="husky_highlevel_controller" type="husky_highlevel_controller.py" name="husky_highlevel_controller">
     <!-- We can set the parameters individually, or -->
     <!-- <rosparam param="scan_topic">"scan"</rosparam> -->
@@ -15,4 +14,6 @@
     <!-- Load from config file -->
     <rosparam command="load" file="$(find husky_highlevel_controller)/config/config.yaml" />
   </node>
+  
+  <node pkg="husky_highlevel_controller" type="pillar_publisher.py" name="pillar_publisher" />
 </launch>

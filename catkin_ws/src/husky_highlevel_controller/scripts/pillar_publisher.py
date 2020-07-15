@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import rospy
 from math import sin, cos
 
@@ -13,14 +14,15 @@ def callback(data):
     global marker_pub
     dist  = min(data.ranges)
     angle = get_angle(get_min_index(data.ranges), data.angle_min, data.angle_increment)
+    # rospy.loginfo("dist: %s, angle: %s" % (dist, angle))
     
     pillar_point = Point()
     pillar_point.x = dist * cos(angle)
-    pillar_point.y = dist * sin(-angle)
+    pillar_point.y = dist * sin(angle)
     pillar_point.z = 0
 
     pillar_marker = Marker()
-    pillar_marker.header.frame_id = "/laser_link"
+    pillar_marker.header.frame_id = "/base_laser"
     pillar_marker.header.stamp    = rospy.get_rostime()
     pillar_marker.ns     = "/"
     pillar_marker.id     = 0
@@ -38,7 +40,7 @@ def callback(data):
     pillar_marker.color.g  = 0
     pillar_marker.color.b  = 0
     pillar_marker.color.a  = 1
-    pillar_marker.lifetime = rospy.Duration(0)
+    pillar_marker.lifetime = rospy.Duration(secs=5)
     marker_pub.publish(pillar_marker)
 
 def listener(scan_topic, queue_size):
@@ -48,7 +50,7 @@ def listener(scan_topic, queue_size):
 if __name__ == '__main__':
     rospy.init_node('pillar_publisher')
 
-    marker_topic  = rospy.get_param(rospy.get_name() + "/marker_topic", "pillar_marker")
+    marker_topic  = rospy.get_param(rospy.get_name() + "/marker_topic", "visualization_marker")
     scan_topic  = rospy.get_param(rospy.get_name() + "/scan_topic", "scan")
     queue_size  = rospy.get_param(rospy.get_name() + "/queue_size", 1)
 

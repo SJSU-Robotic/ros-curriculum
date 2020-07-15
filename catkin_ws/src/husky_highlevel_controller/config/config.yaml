@@ -1,3 +1,4 @@
-husky_highlevel_controller:
-  scan_topic: scan
-  queue_size: 1
+# husky_highlevel_controller:
+scan_topic: scan
+queue_size: 1
+twist_topic: cmd_vel

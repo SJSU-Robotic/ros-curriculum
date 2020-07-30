@@ -1,0 +1,20 @@
+<launch>
+  <param name="/use_sim_time" value="true" />
+  <!-- Run this externally instead -->
+  <!-- <arg name="bagfile" value="../../assignments/assets/husky_navigation.bag" /> -->
+  <!-- <node pkg="rosbag" type="play" name="bag_player"  -->
+        <!-- output="screen" -->
+        <!-- args="\-\-clock $(arg bagfile)" /> -->
+
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization_node">
+    <rosparam command="load" file="../config/localization.yaml" />
+  </node>
+
+  <arg name="multiplot_config_file" value="../config/rqt_multiplot.xml" />
+  <node pkg="rqt_multiplot" type="rqt_multiplot" name="rqt_multiplot"
+        args="--multiplot-config $(arg multiplot_config_file)" />
+
+  <include file="$(find husky_description)/launch/description.launch" />"
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+</launch>

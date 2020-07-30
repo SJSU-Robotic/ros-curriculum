@@ -56,4 +56,13 @@ Handling remote procedure calls, telemetry, and bugs
 ---
 ## Assignment
 * [Exercise 4](assignments/exercise4.pdf)
-    * The `husky_navigation.bag` file is available at [this Google Drive link](https://drive.google.com/file/d/1nEjQloB1lQNSKgFCU6TovC-YJktFa9ez/view?usp=sharing)
+    * To run the solution, `bash catkin_ws/scripts/exercise4.sh`
+    * Assets:
+        * [`catkin_ws/launch/exercise4.launch`](catkin_ws/launch/exercise4.launch)
+            * Be sure to install `rqt_multiplot` via `sudo apt-get install ros-melodic-rqt-multiplot`
+        * [`catkin_ws/config/localization.yaml`](catkin_ws/config/localization.yaml)
+        * [`catkin_ws/config/rqt_multiplot.xml`](catkin_ws/config/rqt_multiplot.xml)
+        * [`catkin_ws/config/exercise4.rviz`](catkin_ws/config/exercise4.rviz)
+        * `assignments/assets/husky_navigation.bag`
+            * The `husky_navigation.bag` file is available at [this Google Drive link](https://drive.google.com/file/d/1nEjQloB1lQNSKgFCU6TovC-YJktFa9ez/view?usp=sharing)
+        * [`catkin_ws/scripts/exercise4.sh`](catkin_ws/scripts/exercise4.sh)

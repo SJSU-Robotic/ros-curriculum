@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="post02">
+    <static>true</static>
+    <link name="prism_link">
+      <pose>0 0 0.5 0 0 0.523598776</pose>
+      <collision name="prism_collision">
+        <geometry>
+          <mesh>
+            <uri>model://post02/meshes/prism02.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="prism_visual">
+        <geometry>
+          <mesh>
+            <uri>model://post02/meshes/prism02.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="post_link">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="post_collision">
+        <geometry>
+          <mesh>
+            <uri>model://post02/meshes/post.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_visual">
+        <geometry>
+          <mesh>
+            <uri>model://post02/meshes/post.dae</uri>
+            <scale>0.5 0.5 0.5</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -58,10 +58,15 @@ While you are not expected to complete the following items, you are encouraged t
     * What are some shortcomings of the simulated sensors and actuators? What improvements would you make?
     * What are some limitations of the ROS stack that would prevent its success in a real implementation? What improvements would you make?
 
-### Resources (to be provided)
+### Resources
 
-* A listing of the requisite ROS nodes, topics, services, and actions, including
-    * Link to source, descriptions, and relevant interfacing details
-* Visualization of the ROS computation graph, which describes the dataflow between each ROS node
-* Gazebo world with simulated posts, gates, and AR tags
-* URDF and SDF files describing the rover's model
+* [File assets](capstone_resources/) for Gazebo simulation models, the rover model, ROS node configurations, and ROS launch files
+* [Resource guide](https://docs.google.com/presentation/d/15zLG4EqfdG5vdmgWoRzqxEjwxvvbU3IoeM8RgJFA4cg/edit#slide=id.p) describing 
+   * Gazebo world with simulated posts, gates, and AR tags
+   * URDF files describing the rover’s model
+   * RViz configuration
+   * List of tools for generating navigation goals
+   * Visualization of the ROS computation graph
+   * Tree visualization of the ROS transforms
+   * List of requisite ROS packages, nodes, topics, actions, and services, with
+      * Links to package documentations

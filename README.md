@@ -12,7 +12,8 @@ Adapted from the [February 2020 iteration of ETH Zurich's Programming for Roboti
 * [Weeks 3 and 4, Module 2 - Writing subscribers and publishers, visualizing data](module2.md)
 * [Weeks 5 and 6, Module 3 - Visualizing robot models and kinematics](module3.md)
 * [Weeks 7 and 8, Module 4 - Handling remote procedure calls, telemetry, and bugs](module4.md)
-* [Weeks 9 and 10, Module 5 - Case studies, advanced topics, and capstone project](module5.md)
+* [Weeks 9 and 10, Module 5 - Case studies, advanced topics](module5.md), and 
+    * [capstone project](capstone.md)
 
 ---
 ## Resources

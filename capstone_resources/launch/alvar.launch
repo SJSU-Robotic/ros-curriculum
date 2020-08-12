@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <arg name="marker_size"          default="20.0" />
+  <arg name="max_new_marker_error" default="0.05" />
+  <arg name="max_track_error"      default="0.05" />
+
+  <!-- <arg name="cam_image_topic" default="/camera/depth/image_raw" />
+  <arg name="cam_info_topic"  default="/camera/depth/camera_info" /> -->
+  <arg name="cam_image_topic" default="/camera/rgb/image_raw" />
+  <arg name="cam_info_topic"  default="/camera/rgb/camera_info" />
+
+  <arg name="output_frame"  default="/camera_link" />
+  <!-- <arg name="output_frame"  default="/camera_frame_optical" /> -->
+  
+  <node pkg="ar_track_alvar" type="individualMarkersNoKinect" name="tag_tracker" respawn="false" output="screen">
+    <param name="marker_size"          type="double" value="$(arg marker_size)" />
+    <param name="max_new_marker_error" type="double" value="$(arg max_new_marker_error)" />
+    <param name="max_track_error"      type="double" value="$(arg max_track_error)" />
+
+    <remap from="camera_image"         to="$(arg cam_image_topic)" />
+    <remap from="camera_info"          to="$(arg cam_info_topic)" />
+
+    <param name="output_frame"         type="string" value="$(arg output_frame)" />
+  </node>
+
+  <!-- <arg  name="bundle_files"  default="$(find ar_track_alvar)/bundles/truthTableLeg.xml $(find ar_track_alvar)/bundles/table_8_9_10.xml" />
+  <node name="tag_tracker" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen" 
+        args="$(arg marker_size) 
+              $(arg max_new_marker_error) 
+              $(arg max_track_error) 
+              $(arg cam_image_topic) 
+              $(arg cam_info_topic) 
+              $(arg output_frame) 
+              $(arg bundle_files)" /> -->
+
+  <!-- <node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundles" respawn="false" output="screen" args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame) $(arg med_filt_size) $(arg bundle_files)" /> -->
+
+</launch>

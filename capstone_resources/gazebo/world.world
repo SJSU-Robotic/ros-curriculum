@@ -1,0 +1,380 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://floor0</uri>
+    </include>
+    <!-- obstacle0 -->
+    <model name='obstacle0_1'>
+      <pose>-4 11 10 0 0 0</pose>
+      <link name='obstacle0_1'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle0_0'>
+      <pose>-5 10 10 0 0 0</pose>
+      <link name='obstacle0_0'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle0_2'>
+      <pose>-6 9 10 0 0 0</pose>
+      <link name='obstacle0_2'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle0_3'>
+      <pose>-7 8 10 0 0 0</pose>
+      <link name='obstacle0_3'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- leg1 -->
+    <include>
+      <pose>5 0 0 0 0 0</pose>
+      <uri>model://post00</uri>
+    </include>
+    <!-- leg2 -->
+    <include>
+      <pose>10 5 0 0 0 0</pose>
+      <uri>model://post01</uri>
+    </include>
+    <!-- obstacle1 -->
+    <model name='obstacle1_0'>
+      <pose>9 12.5 10 0 0 0</pose>
+      <link name='obstacle1_0'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle1_1'>
+      <pose>10 12.5 10 0 0 0</pose>
+      <link name='obstacle1_1'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle1_2'>
+      <pose>11 12.5 10 0 0 0</pose>
+      <link name='obstacle1_2'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle1_3'>
+      <pose>12 11.5 10 0 0 0</pose>
+      <link name='obstacle1_3'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle1_4'>
+      <pose>13 10.5 10 0 0 0</pose>
+      <link name='obstacle1_4'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle1_5'>
+      <pose>13 9.5 10 0 0 0</pose>
+      <link name='obstacle1_5'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- leg3 -->
+    <include>
+      <pose>10 20 0 0 0 0</pose>
+      <uri>model://post02</uri>
+    </include>
+    <!-- leg4 -->
+    <include>
+      <pose>20 -15 0 0 0 0</pose>
+      <uri>model://post03</uri>
+    </include>
+    <include>
+      <pose>21 -17 0 0 0 0</pose>
+      <uri>model://post04</uri>
+    </include>
+    <!-- leg5 -->
+    <include>
+      <pose>0 -35 0 0 0 0</pose>
+      <uri>model://post05</uri>
+    </include>
+    <include>
+      <pose>0 -37 0 0 0 0</pose>
+      <uri>model://post06</uri>
+    </include>
+    <!-- obstacle2 -->
+    <model name='obstacle2_0'>
+      <pose>-0.5 -24.25 10 0 0 0</pose>
+      <link name='obstacle2_0'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_1'>
+      <pose>-1.5 -25.25 10 0 0 0</pose>
+      <link name='obstacle2_1'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_2'>
+      <pose>-2.5 -26.25 10 0 0 0</pose>
+      <link name='obstacle2_2'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_3'>
+      <pose>-3.5 -27.25 10 0 0 0</pose>
+      <link name='obstacle2_3'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_4'>
+      <pose>-4.5 -28.25 10 0 0 0</pose>
+      <link name='obstacle2_4'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_5'>
+      <pose>-5.5 -29.25 10 0 0 0</pose>
+      <link name='obstacle2_5'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_6'>
+      <pose>-6.5 -29.25 10 0 0 0</pose>
+      <link name='obstacle2_6'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_7'>
+      <pose>-7.5 -29.25 10 0 0 0</pose>
+      <link name='obstacle2_7'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle2_8'>
+      <pose>-8.5 -29.25 10 0 0 0</pose>
+      <link name='obstacle2_8'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- leg6 -->
+    <include>
+      <pose>-5 -15 0 0 0 0</pose>
+      <uri>model://post07</uri>
+    </include>
+    <include>
+      <pose>-5 -18 0 0 0 0</pose>
+      <uri>model://post08</uri>
+    </include>
+    <!-- obstacle3 -->
+    <model name='obstacle3_0'>
+      <pose>-12 -14.25 10 0 0 0</pose>
+      <link name='obstacle3_0'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_1'>
+      <pose>-13 -15.25 10 0 0 0</pose>
+      <link name='obstacle3_1'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_2'>
+      <pose>-13 -16.25 10 0 0 0</pose>
+      <link name='obstacle3_2'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_3'>
+      <pose>-13 -17.25 10 0 0 0</pose>
+      <link name='obstacle3_3'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_4'>
+      <pose>-13 -18.25 10 0 0 0</pose>
+      <link name='obstacle3_4'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_5'>
+      <pose>-13 -19.25 10 0 0 0</pose>
+      <link name='obstacle3_5'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name='obstacle3_6'>
+      <pose>-12 -20.25 10 0 0 0</pose>
+      <link name='obstacle3_6'>
+        <visual    name='visual'   >
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material><script><uri>model://floor0/materials/scripts</uri><uri>model://floor0/materials/textures</uri><name>vrc/floor0</name></script></material>
+        </visual>
+        <collision name='collision'>
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <!-- leg7 -->
+    <include>
+      <pose>-20 -19 0 0 0 0</pose>
+      <uri>model://post09</uri>
+    </include>
+    <include>
+      <pose>-20 -17 0 0 0 0</pose>
+      <uri>model://post10</uri>
+    </include>
+  </world>
+</sdf>

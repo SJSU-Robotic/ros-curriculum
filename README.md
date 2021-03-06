@@ -21,6 +21,7 @@ Adapted from the [February 2020 iteration of ETH Zurich's Programming for Roboti
 * [Ubuntu 18.04/ROS Melodic virtual machine image](https://drive.google.com/file/d/197agF7DvoOoZ6fQMTzZJPe6npewd8dgZ/view?usp=sharing)
     * Compatible with VirtualBox, VMWare, and Parallels
     * Login and password: `ubuntu`
+    * For VirtualBox users, you also need to install the [VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.18/Oracle_VM_VirtualBox_Extension_Pack-6.1.18.vbox-extpack)
 
 ### VM Client
 * SJSU CMPE/SE-affiliated macOS users: [VMWare Fusion Pro for macOS](https://e5.onthehub.com/WebStore/OfferingDetails.aspx?o=637dd37b-06b5-e711-80f7-000d3af41938&ws=07c5a62b-c840-de11-b696-0030485a8df0&vsro=8)
